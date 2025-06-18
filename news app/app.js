@@ -3,7 +3,7 @@ let showData = document.getElementById("showData");
 let input = document.getElementById("inputData");
 
 const getNews = () => {
-  let API_URL = `https://newsapi.org/v2/everything?q=${input.value}&from=2025-05-14&sortBy=publishedAt&apiKey=5aa2b01171e440a69396189b5e058699`;
+  let API_URL = `https://newsapi.org/v2/everything?q=${input.value}&from=2025-05-14&sortBy=publishedAt&apiKey=*************************`;
   fetch(API_URL)
     .then((res) => res.json())
     .then((data) => {
